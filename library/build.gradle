@@ -12,8 +12,8 @@ dependencies {
 
 android {
 
-	compileSdkVersion 24
-	buildToolsVersion "26.0.1"
+	compileSdkVersion 26
+	buildToolsVersion "26.0.2"
 
 	lintOptions {
 		abortOnError false
@@ -27,7 +27,6 @@ android {
 
 	buildTypes {
 		release {
-			minifyEnabled false
 			consumerProguardFiles 'proguard-rules.pro'
 		}
 	}
