@@ -1231,7 +1231,7 @@ public class SlidingUpPanelLayout extends ViewGroup implements ScrollableChild {
 		}
 	}
 	
-	public void setPanelStateInternal(PanelState state) {
+	private void setPanelStateInternal(PanelState state) {
 		if (mSlideState == state) {
 			return;
 		}
