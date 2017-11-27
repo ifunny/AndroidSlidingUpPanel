@@ -15,8 +15,15 @@ android {
 	compileSdkVersion rootProject.ext.compileSdkVersion
 	buildToolsVersion rootProject.ext.buildToolsVersion
 
+	compileOptions {
+		sourceCompatibility JavaVersion.VERSION_1_8
+		targetCompatibility JavaVersion.VERSION_1_8
+		incremental true
+	}
+
 	defaultConfig {
-		compileSdkVersion rootProject.ext.compileSdkVersion
+		targetSdkVersion rootProject.ext.compileSdkVersion
+		minSdkVersion rootProject.ext.minSdkVersion
 		versionCode 16
 		versionName "3.3.1"
 	}
