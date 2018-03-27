@@ -1,9 +1,5 @@
 apply plugin: 'com.android.library'
 
-repositories {
-	jcenter()
-}
-
 dependencies {
 	implementation rootProject.ext.supportPackageCoreUtilsVersion
 	implementation rootProject.ext.supportAnnotationVersion
